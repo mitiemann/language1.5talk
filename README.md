@@ -6,6 +6,13 @@ discussion has been initiated indeed. In this talk, we want to recap our origina
 analyze and summarize the discussion that we've observed online and present some ideas where 
 to take this from here.
 
+## Links
+
+[Julia Discourse](https://discourse.julialang.org/t/does-julia-create-a-1-5-language-problem/107984)  
+[Reddit](https://www.reddit.com/r/Julia/comments/18nyxew/michael_tiemann_julia_solves_the_2_language/?rdt=60211)  
+[Hacker News (YCombinator)](https://news.ycombinator.com/item?id=38730712)  
+[YouTube](https://www.youtube.com/watch?v=RUJFd-rEa0k&list=PLP8iPy9hna6Tp3QV4akXAd23_O5Vjm_e2)
+
 ## Author
 
 [Michael Tiemann](mailto:mail@michaeltiemann.net)

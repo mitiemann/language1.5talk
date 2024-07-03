@@ -17,6 +17,9 @@ md"""
 # ╔═╡ 9adc5a36-51bc-4a1c-8d47-3bbf05eae26f
 md"""
 ### Intro
+
+- TODO: a picture from last year's talk
+
 In which I quickly introduce myself, talk about last JuliaCon and the overwhelming reception I've received.
 """
 
@@ -28,8 +31,25 @@ md"""
 
 """
 
+# ╔═╡ 5432b132-b390-4340-ba26-7a237bfdfd0b
+md"""
+TODO: Make the color of the box different!
+
+> **Note** This talk is concerned with _technical aspects_ of the Julia programming language, but presents opinions on _Julia user experiences_.
+"""
+
+# ╔═╡ 24833199-16fd-4c35-b901-a7f7cafa2ec4
+md"""
+## The two language problem
+
+> "Two-tiered architectures have emerged as the standard compromise between convenience and performance: programmers express high-level logic in a dynamic language while the heavy lifting is done in C and Fortran."
+Jeff Bezanson, Stefan Karpinski, Viral B. Shah, Alan Edelman: "Julia: A Fast Dynamic Language for Technical Computing". 2012
+"""
+
 # ╔═╡ 31af4b5e-31a3-419a-bccc-a6837afa19c7
 md"""
+_probably delete_
+
 ## Summary of online discussion points
 
 - TODO
@@ -40,6 +60,27 @@ md"""
 ## The 2 language problem revisited
 $(LocalResource("imgs/myrthe.png"))
 [Myrthe Scheepers: ASML's Julia Journey. *JuliaCon Local Eindhoven 2023*](https://youtu.be/Nf70byblWEU?si=V07vlkA80JyT1SJk&t=365)
+"""
+
+# ╔═╡ f2b73970-1e3e-4363-8108-2de146b04bac
+md"""
+## Naive expectation
+$(LocalResource("imgs/plot-01.jpeg"))
+"""
+
+# ╔═╡ 1e4b1c08-6023-4a0a-9f58-7bd20af55733
+md"""
+## Realistic expectation
+
+$(LocalResource("imgs/plot-02.jpeg"))
+Julia code can be & _will be_ slow in rapid prototyping
+"""
+
+# ╔═╡ 12d68f35-f5d1-46f0-af53-25bd95eac780
+md"""
+## It's not a bug, it's a feature
+
+$(LocalResource("imgs/plot-03.jpeg"))
 """
 
 # ╔═╡ 660a6e5b-3271-48e2-89ea-f5ce0c260289
@@ -64,6 +105,13 @@ md"""
 - one dimension: achievable top speed
 - one dimension: ease of deployability
 - ... and many more dimensions (cf. [Liam's talk](https://youtu.be/LW8kuoELgC4?si=GytLdoRWXzICHZfk))
+"""
+
+# ╔═╡ a3577fdc-dc1f-4df0-b692-978f57c1a897
+md"""
+## Happyness is an illusion
+
+$(LocalResource("imgs/plot-04.jpeg"))
 """
 
 # ╔═╡ e8ff10e9-8892-4096-800f-3a7e35ca5943
@@ -112,6 +160,10 @@ md"""
 - [Reddit follow-up thread](https://www.reddit.com/r/Julia/comments/1abenv8/2024_maybe_the_year_for_julia/?rdt=59504)
 - [YouTube video](https://www.youtube.com/watch?v=RUJFd-rEa0k)
 - [Google discussion](https://groups.google.com/g/julia-users/c/pD0qzv_owC8)
+
+_TODO_
+
+- SciML book and Chris Rackauckas video lectures
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
@@ -394,13 +446,19 @@ version = "17.4.0+2"
 # ╔═╡ Cell order:
 # ╠═533d82d7-8c4e-4b43-9628-ca779b9c0b50
 # ╟─83b9b994-dff7-11ee-1a06-8fc07b2e8b04
-# ╟─9adc5a36-51bc-4a1c-8d47-3bbf05eae26f
+# ╠═9adc5a36-51bc-4a1c-8d47-3bbf05eae26f
 # ╟─bf0829ce-8d26-4d4b-a165-8532724e0337
+# ╠═5432b132-b390-4340-ba26-7a237bfdfd0b
+# ╟─24833199-16fd-4c35-b901-a7f7cafa2ec4
 # ╠═31af4b5e-31a3-419a-bccc-a6837afa19c7
 # ╠═8327ee17-f6e9-451c-9c52-7ec45253fac7
+# ╟─f2b73970-1e3e-4363-8108-2de146b04bac
+# ╠═1e4b1c08-6023-4a0a-9f58-7bd20af55733
+# ╠═12d68f35-f5d1-46f0-af53-25bd95eac780
 # ╠═660a6e5b-3271-48e2-89ea-f5ce0c260289
 # ╠═343bb1da-9eff-4586-a123-bc3a3406665f
 # ╟─49522e07-b056-438a-aaf0-8c34995cefca
+# ╠═a3577fdc-dc1f-4df0-b692-978f57c1a897
 # ╠═e8ff10e9-8892-4096-800f-3a7e35ca5943
 # ╠═3a1bef2b-1843-4caa-9c09-9f17bd283e03
 # ╠═92639f81-e406-4a55-8812-66ec01d29b16

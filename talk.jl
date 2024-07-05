@@ -16,31 +16,37 @@ md"""
 
 # ╔═╡ 9adc5a36-51bc-4a1c-8d47-3bbf05eae26f
 md"""
-### Intro
+# Intro
 
-- TODO: a picture from last year's talk
+$(LocalResource("imgs/michael.png"))
+"""
 
-In which I quickly introduce myself, talk about last JuliaCon and the overwhelming reception I've received.
+# ╔═╡ 74f6257c-356a-4e7b-b701-a350fc6d83a0
+md"""
+# Audience participation
 """
 
 # ╔═╡ bf0829ce-8d26-4d4b-a165-8532724e0337
 md"""
-## The core hypothesis statement
+# The core hypothesis statement
 
-> The common expression "Julia solves the 2 language problem" creates an *expectation* in newcomers which is not **trivially** satisfied.
+!!! info "The 1.5 language problem"
+
+	The common expression "Julia solves the two language problem" creates an *expectation* in newcomers which is not **trivially** satisfied.
 
 """
 
 # ╔═╡ 5432b132-b390-4340-ba26-7a237bfdfd0b
 md"""
-TODO: Make the color of the box different!
+# 
+!!! question "Note"
 
-> **Note** This talk is concerned with _technical aspects_ of the Julia programming language, but presents opinions on _Julia user experiences_.
+	This talk is concerned with _technical aspects_ of the Julia programming language, but presents opinions on _Julia user experiences_.
 """
 
 # ╔═╡ 24833199-16fd-4c35-b901-a7f7cafa2ec4
 md"""
-## The two language problem
+# The two language problem
 
 > "Two-tiered architectures have emerged as the standard compromise between convenience and performance: programmers express high-level logic in a dynamic language while the heavy lifting is done in C and Fortran."
 Jeff Bezanson, Stefan Karpinski, Viral B. Shah, Alan Edelman: "Julia: A Fast Dynamic Language for Technical Computing". 2012
@@ -57,20 +63,33 @@ _probably delete_
 
 # ╔═╡ 8327ee17-f6e9-451c-9c52-7ec45253fac7
 md"""
-## The 2 language problem revisited
+# The 2 language problem revisited
 $(LocalResource("imgs/myrthe.png"))
 [Myrthe Scheepers: ASML's Julia Journey. *JuliaCon Local Eindhoven 2023*](https://youtu.be/Nf70byblWEU?si=V07vlkA80JyT1SJk&t=365)
 """
 
+# ╔═╡ b6278db3-8994-4e0b-b331-3df55cad188e
+md"""
+# Meet the mascots
+
+*TODO*
+
+Rapid prototyping
+
+vs.
+
+Rapid execution
+"""
+
 # ╔═╡ f2b73970-1e3e-4363-8108-2de146b04bac
 md"""
-## Naive expectation
+# Naive expectation
 $(LocalResource("imgs/plot-01.jpeg"))
 """
 
 # ╔═╡ 1e4b1c08-6023-4a0a-9f58-7bd20af55733
 md"""
-## Realistic expectation
+# Realistic expectation
 
 $(LocalResource("imgs/plot-02.jpeg"))
 Julia code can be & _will be_ slow in rapid prototyping
@@ -78,17 +97,18 @@ Julia code can be & _will be_ slow in rapid prototyping
 
 # ╔═╡ 12d68f35-f5d1-46f0-af53-25bd95eac780
 md"""
-## It's not a bug, it's a feature
+# It's not a bug, it's a feature
 
 $(LocalResource("imgs/plot-03.jpeg"))
 """
 
 # ╔═╡ 660a6e5b-3271-48e2-89ea-f5ce0c260289
 md"""
-## The fractal language problem revisited
+# The non-integer language problem revisited
+The pareto front has a non-integer Hausdorff dimension ;-)
 
-- ease of rapid prototyping vs. achievable top speed are two *orthogonal* aspects of a language
-- Thus, the 2 language problem is really a one-dimensional projection of a higher dimensional phenomenon
+$(Resource("https://upload.wikimedia.org/wikipedia/commons/b/bc/Great_Britain_Hausdorff.svg"))
+(Image credit: By Prokofiev - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12042048)
 """
 
 # ╔═╡ 343bb1da-9eff-4586-a123-bc3a3406665f
@@ -128,6 +148,11 @@ md"""
 ## An open-source book about iterative refinement from rapid prototyping to rapid execution code
 
 *include QR code and link to Github repo*
+"""
+
+# ╔═╡ 1521ea0d-b6f9-4b7c-8b9d-2c1cd3cb492b
+md"""
+# Call to action: live stream your refactoring sessions
 """
 
 # ╔═╡ 92639f81-e406-4a55-8812-66ec01d29b16
@@ -444,15 +469,17 @@ version = "17.4.0+2"
 """
 
 # ╔═╡ Cell order:
-# ╠═533d82d7-8c4e-4b43-9628-ca779b9c0b50
+# ╟─533d82d7-8c4e-4b43-9628-ca779b9c0b50
 # ╟─83b9b994-dff7-11ee-1a06-8fc07b2e8b04
-# ╠═9adc5a36-51bc-4a1c-8d47-3bbf05eae26f
+# ╟─9adc5a36-51bc-4a1c-8d47-3bbf05eae26f
+# ╟─74f6257c-356a-4e7b-b701-a350fc6d83a0
 # ╟─bf0829ce-8d26-4d4b-a165-8532724e0337
-# ╠═5432b132-b390-4340-ba26-7a237bfdfd0b
+# ╟─5432b132-b390-4340-ba26-7a237bfdfd0b
 # ╟─24833199-16fd-4c35-b901-a7f7cafa2ec4
-# ╠═31af4b5e-31a3-419a-bccc-a6837afa19c7
-# ╠═8327ee17-f6e9-451c-9c52-7ec45253fac7
-# ╟─f2b73970-1e3e-4363-8108-2de146b04bac
+# ╟─31af4b5e-31a3-419a-bccc-a6837afa19c7
+# ╟─8327ee17-f6e9-451c-9c52-7ec45253fac7
+# ╟─b6278db3-8994-4e0b-b331-3df55cad188e
+# ╠═f2b73970-1e3e-4363-8108-2de146b04bac
 # ╠═1e4b1c08-6023-4a0a-9f58-7bd20af55733
 # ╠═12d68f35-f5d1-46f0-af53-25bd95eac780
 # ╠═660a6e5b-3271-48e2-89ea-f5ce0c260289
@@ -461,6 +488,7 @@ version = "17.4.0+2"
 # ╠═a3577fdc-dc1f-4df0-b692-978f57c1a897
 # ╠═e8ff10e9-8892-4096-800f-3a7e35ca5943
 # ╠═3a1bef2b-1843-4caa-9c09-9f17bd283e03
+# ╠═1521ea0d-b6f9-4b7c-8b9d-2c1cd3cb492b
 # ╠═92639f81-e406-4a55-8812-66ec01d29b16
 # ╠═aa640f8d-791a-4c28-a3e9-c5cfae8ed7e7
 # ╠═b58a68aa-4709-4c1f-b680-dfe434679a04

@@ -74,13 +74,9 @@ $(LocalResource("imgs/myrthe.png"))
 md"""
 # Meet the mascots
 
-*TODO*
-
-Rapid prototyping
-
-vs.
-
-Rapid execution
+$(LocalResource("imgs/rabbits.png", :width => 350))
+$(LocalResource("imgs/cheetah.png", :width => 300))
+Rapid prototyping vs. rapid execution
 """
 
 # ╔═╡ f2b73970-1e3e-4363-8108-2de146b04bac

@@ -10,8 +10,10 @@ using PlutoUI
 # ╔═╡ 83b9b994-dff7-11ee-1a06-8fc07b2e8b04
 md"""
 # Language 1.5 revisited
-
-*Michael Tiemann*
+\
+Michael Tiemann\
+*Bosch Center for Artificial Intelligence* \
+*Renningen, Germany*
 """
 
 # ╔═╡ 9adc5a36-51bc-4a1c-8d47-3bbf05eae26f
@@ -41,7 +43,7 @@ md"""
 # 
 !!! question "Note"
 
-	This talk is concerned with _technical aspects_ of the Julia programming language, but presents opinions on _Julia user experiences_.
+	This talk is concerned with _technical aspects_ of the Julia programming language, but presents opinions on the _Julia user experiences_.
 """
 
 # ╔═╡ 24833199-16fd-4c35-b901-a7f7cafa2ec4
@@ -482,7 +484,7 @@ version = "17.4.0+2"
 # ╠═f2b73970-1e3e-4363-8108-2de146b04bac
 # ╠═1e4b1c08-6023-4a0a-9f58-7bd20af55733
 # ╠═12d68f35-f5d1-46f0-af53-25bd95eac780
-# ╠═660a6e5b-3271-48e2-89ea-f5ce0c260289
+# ╟─660a6e5b-3271-48e2-89ea-f5ce0c260289
 # ╠═343bb1da-9eff-4586-a123-bc3a3406665f
 # ╟─49522e07-b056-438a-aaf0-8c34995cefca
 # ╠═a3577fdc-dc1f-4df0-b692-978f57c1a897

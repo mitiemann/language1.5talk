@@ -145,19 +145,23 @@ md"""
 md"""
 ## An open-source book about iterative refinement from rapid prototyping to rapid execution code
 
-*include QR code and link to Github repo*
+*the problematic recipe: here's all the ingredients, the final product should look like this*
+
+*julia.kitchen*
 """
 
 # ╔═╡ 1521ea0d-b6f9-4b7c-8b9d-2c1cd3cb492b
 md"""
 # Call to action: live stream your refactoring sessions
+
+*I want you, PhD students, for Julia tutorials*
 """
 
 # ╔═╡ 92639f81-e406-4a55-8812-66ec01d29b16
 md"""
 ## A visual guide for expectation management
 
-*include graphic*
+*this needs to come much earlier*
 """
 
 # ╔═╡ aa640f8d-791a-4c28-a3e9-c5cfae8ed7e7
